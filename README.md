@@ -7,7 +7,7 @@ Then install necessary packages by:
 pip install -r requirements.txt
 ```
 
-Then run the python file by:
+Then put the python files with the 'data' folder under the same folder and run the python file by:
 ```
 python convert_test.py/convert_train.py
 ```
