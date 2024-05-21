@@ -1,8 +1,13 @@
-# Convert cifar10 to images and save orderly.
+# Convert the cifar10 dataset to images and save orderly.
 
-Download cifar from [http://www.cs.toronto.edu/~kriz/cifar.html](http://www.cs.toronto.edu/~kriz/cifar.html).
+First, create a folder named 'data'. Download the raw dataset from [http://www.cs.toronto.edu/~kriz/cifar.html](http://www.cs.toronto.edu/~kriz/cifar.html) and unzip it into the 'data' folder.  
 
-You should create a folder named 'data' and put the dataset in it. Then unzip it and run the python file by using:
+Then install necessary packages by:
+```
+pip install -r requirements.txt
+```
+
+Then run the python file by:
 ```
 python convert_test.py/convert_train.py
 ```
